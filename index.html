@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Parser</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input id="adress" type="text" placeholder="Введите адрес сайта">
+    <div class="button-group">
+        <button id="parse" class="btn_active">PARSE</button>
+        <button id="analysis" class="btn_not_active" disabled='disabled'>ANALYZE</button>
+        <button id="reset" class="btn_active">RESET</button>
+    </div>
+    <input type="text" id="info" value="Введите название сайта полностью (например, https://koptilnya.com), нажмите PARSE для получения адресов." disabled>
+    <table id="links"><tr><th>Link</th><th>Mobile</th><th>Desktop</th></tr></table>
+    <script src="https://yandex.st/jquery/3.1.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
